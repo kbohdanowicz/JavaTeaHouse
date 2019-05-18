@@ -1,0 +1,67 @@
+#labShopName{
+    -fx-font-family: "Courier New";
+    -fx-font-size: 50;
+    -fx-font-weight: bold;
+}
+
+#labPrice{
+    -fx-text-fill: royalblue;
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+    -fx-stroke: black;
+    -fx-stroke-width: 1px;
+}
+
+#labMailUs{
+    -fx-font-size: 16;
+    -fx-font-weight: bold;
+    -fx-stroke: black;
+    -fx-stroke-width: 1px;
+}
+
+#btnClear{
+    -fx-background-image: url("/dev/res/btnBlue.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover, auto;
+    -fx-text-fill: white;
+    -fx-font-size: 16;
+    -fx-font-weight: bold;
+}
+
+#btnYerba{
+    -fx-background-image: url("/dev/res/btnYerba.jpg");
+}
+
+#btnInvoice{
+    -fx-background-image: url("/dev/res/btnGreen.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover, auto;
+    -fx-text-fill: black;
+    -fx-font-size: 16;
+    -fx-font-weight: bold;
+}
+
+.label {
+    -fx-font-size: 16;
+}
+
+.outlineUn.label .text {
+    -fx-font-size: 26;
+    -fx-fill: lightseagreen;
+    -fx-stroke: black;
+    -fx-stroke-width: 1px;
+}
+
+.outlineDeux.label .text {
+    -fx-font-size: 26;
+    -fx-fill: white;
+    -fx-stroke: purple;
+    -fx-stroke-width: 1px;
+}
+
+.outlineTrois.label .text {
+    -fx-font-size: 26;
+    -fx-fill: lightseagreen;
+    -fx-stroke: brown;
+    -fx-stroke-width: 1px;
+}
